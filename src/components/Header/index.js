@@ -72,12 +72,12 @@ const Header = () => {
         <div className={cx(styles.rightTextContainer, rStyles.rightTextContainer)}>
           <p className={styles.rightText}>
             <div style={{position: 'relative'}}>
-              <span className={cx(styles.rightItemText, rStyles.rightItemText)}>Mexican</span>
+              <span className={cx(styles.rightItemText, rStyles.rightItemText)}>Teuchi</span>
               <span style={{ position: "absolute", top: -15, right: -25 }}>
                 <img width={40} src={Shine} alt="" />
               </span>
             </div>
-            <span className={cx(styles.rightItemText, rStyles.rightItemText)}>Burger</span>
+            <span className={cx(styles.rightItemText, rStyles.rightItemText)}>Pack</span>
             <br />
             <span className={cx(styles.rightItemText, rStyles.rightItemText, styles.active)}>
               $19.99

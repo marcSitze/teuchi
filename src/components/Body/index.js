@@ -17,26 +17,24 @@ const Body = () => {
           <img width="100%" src={Macdo} alt="macdo" />
         </div>
         <div className={cx(styles.col, rStyles.col)}>
-          <span className={cx(styles.rightTitle, rStyles.rightTitle)}>Today Our</span>
+          <span className={cx(styles.rightTitle, rStyles.rightTitle)}>Entreprise De</span>
           <div className={cx(styles.featurePackWrapper, rStyles.featurePackWrapper)}>
             <div style={{ position: "relative", marginRight: 20 }}>
               <div className={cx(styles.shineWrapper, rStyles.shineWrapper)}>
                 <img className={cx(styles.shineImg, rStyles.shineImg)} src={Shine} alt="shine" />
               </div>
-              <h3 className={cx(styles.featureText, rStyles.featureText)}>Feature</h3>
+              <h3 className={cx(styles.featureText, rStyles.featureText)}>Pattes</h3>
               <div>
                 <img className={cx(styles.elipseImg, rStyles.elipseImg)} src={Elipse} alt="elipse" />
               </div>
             </div>
             <div>
-              <h3 className={cx(styles.packText, rStyles.packText)}>Pack</h3>
+              <h3 className={cx(styles.packText, rStyles.packText)}>Alimentaire</h3>
             </div>
           </div>
           <div className={cx(styles.description, rStyles.description)}>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            Teuchi est le propriétaire de l'entreprise TEUCHI spécialisée dans la fabrication des pattes alimentaires.
             </p>
           </div>
           <button className={styles.galleryBtn}>VIEW FOOD GALLERY</button>
@@ -47,7 +45,7 @@ const Body = () => {
           <img width="100%" src={MixFood} alt="macdo" />
         </div>
         <div className={cx(styles.col, rStyles.col)}>
-          <span className={cx(styles.rightTitle, rStyles.rightTitle)}>Have Fast</span>
+          <span className={cx(styles.rightTitle, rStyles.rightTitle)}>Sa Vision</span>
           <div className={cx(styles.featurePackWrapper, rStyles.featurePackWrapper)}>
             <div style={{ position: "relative", marginRight: 20 }}>
               <div className={cx(styles.shineWrapper, rStyles.shineWrapper)}>
@@ -64,9 +62,7 @@ const Body = () => {
           </div>
           <div className={cx(styles.description, rStyles.descriptionWrapper)}>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            Proposer des pattes avec un goût varié de ce qui se vend d'habitude. On a notamment les saveurs pimentée et citronnée mise en avant.
             </p>
           </div>
           <button className={styles.galleryBtn}>READ MORE</button>
@@ -77,8 +73,7 @@ const Body = () => {
           <div className={cx(styles.col, rStyles.col)}>
             <div className={styles.testimonialTextWrapper}>
               <p className={cx(styles.testimonialTitle, rStyles.testimonialTitle)}>
-                "We are a best, premiuim, yummy, good quality fast food seller
-                in USA"
+                "La marque TEUCHI vise des personnes responsables à la découverte de chose nouvelle, et qui aiment bien faire les choses d'elle même."
               </p>
               <p className={styles.testimonialTitleName}>KADIN SEPTIMUS</p>
               <p className={styles.testimonialTitlePost}>Head of Product</p>
