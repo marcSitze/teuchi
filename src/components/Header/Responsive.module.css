@@ -1,0 +1,172 @@
+/* Large Devices (Desktops & Laptops) */
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+  .bgText {
+    font-size: 15rem;
+    margin-top: 0.5rem;
+  }
+  .foods {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .bgText {
+    font-size: 13rem;
+    margin-top: 0.5rem;
+  }
+  .foods {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .leftText {
+    font-size: 60px;
+  }
+  .shineWrapper {
+    position: absolute;
+    top: -45px;
+    right: 15px;
+  }
+  .elipse {
+    width: 100px
+  }
+  .textContainer {
+    padding: 15% 0;
+  }
+  .rightItemText {
+    font-size: 25px;
+  }
+  .arrow {
+    padding: 20px 40px;
+  }
+  .arrowImg {
+    width: 30px;
+  }
+  .bottomTitle {
+    font-size: 60px;
+    margin-top: 2rem;
+  }
+  .bgText {
+    font-size: 10rem;
+    margin-top: 0.5rem;
+  }
+  .foods {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+/* Extra Small Devices (Landscape Phones & Portrait Tablets) */
+
+@media (max-width: 767px) {
+  .leftText {
+    font-size: 60px;
+  }
+  .shineWrapper {
+    position: absolute;
+    top: -45px;
+    right: 15px;
+  }
+  .elipse {
+    width: 100px
+  }
+  .textContainer {
+    padding: 15% 0;
+  }
+  .rightItemText {
+    font-size: 25px;
+  }
+  .arrow {
+    padding: 20px 40px;
+  }
+  .arrowImg {
+    width: 30px;
+  }
+  .bottomTitle {
+    font-size: 60px;
+    margin-top: 2rem;
+  }
+  .bgText {
+    font-size: 3rem;
+    margin-top: 0.5rem;
+  }
+  /* .foods {
+    margin: 0;
+    display: block;
+  } */
+}
+
+@media (max-width: 620px) {
+.foods {
+    margin: 0;
+    display: block;
+  }
+}
+
+
+/* Extra Small Devices (Portrait Phones & Smaller Devices) */
+
+@media (max-width: 480px) {
+  .leftText {
+    font-size: 30px;
+  }
+  .shineWrapper {
+    position: absolute;
+    top: -25px;
+  }
+  .shine {
+    width: 40px;
+  }
+  .elipse {
+    width: 75px
+  }
+  .arrow {
+    padding: 10px 20px;
+  }
+  .arrowImg {
+    width: 20px;
+  }
+  .textContainer {
+    padding: 25% 0;
+  }
+  .rightTextContainer {
+    margin-right: 0;
+  }
+  .rightItemText {
+    font-size: 20px;
+  }
+  .bottomTitle {
+    font-size: 35px;
+    margin-top: 2rem;
+  }
+  .foods {
+    margin: 0;
+    display: block;
+  }
+  .bgText {
+    font-size: 1.5rem;
+    left: 55%;
+    margin-top: 2.5rem;
+  }
+}
+
+
+/* Extra Small Devices (Portrait Phones & Smaller Devices) */
+
+@media (max-width: 320px) {
+  
+}

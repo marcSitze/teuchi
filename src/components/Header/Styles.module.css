@@ -1,0 +1,117 @@
+/* .container {
+  padding-bottom: 40px;
+} */
+.textContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3% 6%;
+}
+.leftText {
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  font-size: 110px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+.shineWrapper {
+  position: "absolute";
+  top: -80px;
+}
+.shine {
+  width: 80px;
+}
+.elipse {
+  width: 200px;
+}
+.fastWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.ranchoText {
+  font-family: 'Rancho', cursive;
+}
+.rightTextContainer {
+  margin-right: 10%;
+  margin-top: -10%;
+}
+.rightText {
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+}
+.rightItemText {
+  font-size: 35px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+.cartBtn {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+.headerBottom {
+  position: relative;
+  background-color: #fea775;
+  min-height: 300px;
+  z-index: 0;
+}
+.middleImgContainer {
+  z-index: 10;
+  /* background: red; */
+  width: 100%;
+}
+.middleImg {
+  margin-top: -27%;
+  width: 45%;
+}
+
+.arrowWrapper {
+  /* background: red; */
+  display: flex;
+  justify-content: space-between;
+  margin: 0 7%;
+}
+.arrow {
+  background-color: #fff;
+  padding: 20px 40px;
+  margin-bottom: -26px;
+  z-index: 1;
+  border-radius: 50px;
+}
+.arrowImg {
+  width: 50px;
+}
+.bgText {
+  font-size: 30rem;
+  padding: 0;
+  margin: 0;
+  margin-top: -100px;
+  z-index: -1;
+  color: #faa06f;
+  position: absolute;
+  top: 0;
+  letter-spacing: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bottomTitle {
+  font-size: 90px;
+  color: #352b44;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.foods {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10%;
+  padding-bottom: 40px;
+  flex-wrap: wrap;
+}
+.active {
+  color: #fea775;
+}

@@ -1,0 +1,190 @@
+/* Large Devices (Desktops & Laptops) */
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+ 
+}
+
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    height: 100px;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    transition: height 1s;
+    height: 170px;
+box-shadow: 0px -20px 26px 2px;
+  }
+  .toggleContainer {
+    height: 100vh;
+    flex-direction: column;
+    padding: 0;
+    transition: height 3.s;
+    padding: 0;
+    margin: 0;
+  }
+  .logoWrapper {
+    align-self: flex-start;
+    flex: 1;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menuContainer {
+    flex-direction: column;
+    justify-content: center;
+    flex: 2;
+  }
+  .none {
+    display: none;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .toggle {
+    display: block;
+    position: absolute;
+    right: 25px;
+    top: 50px
+  }
+  .hide {
+    display: none;
+  }
+  .show {
+    display: block;
+  }
+}
+
+
+/* Extra Small Devices (Landscape Phones & Portrait Tablets) */
+
+@media (max-width: 767px) {
+  .container {
+    height: 100px;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    transition: height 1s;
+    height: 170px;
+box-shadow: 0px -20px 26px 2px;
+  }
+  .toggleContainer {
+    height: 100vh;
+    flex-direction: column;
+    padding: 0;
+    transition: height 3.s;
+    padding: 0;
+    margin: 0;
+  }
+  .logoWrapper {
+    align-self: flex-start;
+    flex: 1;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menuContainer {
+    flex-direction: column;
+    justify-content: center;
+    flex: 2;
+  }
+  .none {
+    display: none;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .toggle {
+    display: block;
+    position: absolute;
+    right: 25px;
+    top: 50px
+  }
+  .hide {
+    display: none;
+  }
+  .show {
+    display: block;
+  }
+}
+
+
+/* Extra Small Devices (Portrait Phones & Smaller Devices) */
+
+@media (max-width: 480px) {
+  .container {
+    height: 100px;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    transition: height 1s;
+    height: 170px;
+box-shadow: 0px -20px 26px 2px;
+  }
+  .toggleContainer {
+    height: 100vh;
+    flex-direction: column;
+    padding: 0;
+    transition: height 3.s;
+    padding: 0;
+    margin: 0;
+  }
+  .logoWrapper {
+    align-self: flex-start;
+    flex: 1;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menuContainer {
+    flex-direction: column;
+    justify-content: center;
+    flex: 2;
+  }
+  .none {
+    display: none;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .toggle {
+    display: block;
+    position: absolute;
+    right: 25px;
+    top: 50px
+  }
+  .hide {
+    display: none;
+  }
+  .show {
+    display: block;
+  }
+}
+
+
+/* Extra Small Devices (Portrait Phones & Smaller Devices) */
+
+@media (max-width: 320px) {
+  
+}

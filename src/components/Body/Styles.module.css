@@ -1,0 +1,121 @@
+.container {
+  background-color: #fff9f4;
+  padding: 100px 0;
+}
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+  flex-wrap: wrap;
+}
+.rowReverse {
+  flex-direction: row-reverse;
+}
+.col {
+  width: 50%;
+  text-align: center;
+}
+.rightTitle {
+  font-size: 80px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  color: #352b44;
+}
+
+.featureWrapper {
+  position: relative;
+  display: flex;
+}
+.featurePackWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.shineWrapper {
+  position: absolute;
+  right: -35px;
+}
+.shineImg {
+  width: 60px;
+}
+.elipseImg {
+  width: 200px;
+}
+.underlineFeature {
+  display: flex;
+  flex-direction: column;
+}
+.feature {
+  font-family: 'Rancho', sans-serif;
+}
+.featureText {
+  font-size: 80px;
+  font-family: 'Rancho', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #352b44;
+}
+.packText {
+  font-size: 80px;
+  margin: 0;
+  padding: 0;
+  color: #352b44;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+.description {
+  display: flex;
+  justify-content: center;
+}
+
+.description p {
+  width: 50%;
+  text-align: left;
+  margin-left: 50px;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: #2c2929b2;
+}
+.galleryBtn {
+  font-size: 14px;
+  background-color: #fff9f4;
+  outline: none;
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 10px 20px;
+  transition: all .2s;
+}
+.galleryBtn:hover {
+  background-color: #fff9f46c;
+}
+
+.testimonial {
+  background-color: #fff0e7;
+  padding: 100px 0;
+}
+.testimonialTextWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testimonialTitle {
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  width: 50%;
+  text-align: left;
+}
+.testimonialTitleName {
+  text-align: left;
+  width: 50%;
+  font-size: 20px;
+  color: #352b44;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+.testimonialTitlePost {
+  text-align: left;
+  width: 50%;
+  margin: 0;
+}

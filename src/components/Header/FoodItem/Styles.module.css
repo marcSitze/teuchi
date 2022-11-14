@@ -1,0 +1,18 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 20px;
+  color: #352b44;
+  font-family: 'Poppins', sans-serif;
+  margin: 10px 0;
+}
+.price {
+  font-size: 18px;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 20px;
+}

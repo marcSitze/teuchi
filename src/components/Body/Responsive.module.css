@@ -1,0 +1,161 @@
+/* Large Devices (Desktops & Laptops) */
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+ 
+}
+
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .rightTitle {
+    font-size: 60px;
+  }
+  .featureText {
+    font-size: 65px;
+  }
+  .featurePackWrapper {
+    align-items: baseline;
+  }
+  .packText {
+    font-size: 60px;
+  }
+  .shineImg {
+    width: 40px;
+  }
+  .elipseImg {
+    width: 120px;
+  }
+  .description {
+    width: 100%;
+  }
+  .description p {
+    width: 80%;
+    word-spacing: 3px;
+    text-align: justify;
+    margin-left: 0;
+  }
+  .descriptionWrapper {
+    width: 100%;
+  }
+  .descriptionWrapper p {
+    width: 80%;
+    word-spacing: 3px;
+    text-align: justify;
+    margin-left: 0;
+  }
+  .testimonialTitle {
+    width: 80%;
+  }
+}
+
+
+/* Extra Small Devices (Landscape Phones & Portrait Tablets) */
+
+@media (max-width: 767px) {
+  .rightTitle {
+    font-size: 40px;
+  }
+  .featureText {
+    font-size: 45px;
+  }
+  .featurePackWrapper {
+    align-items: baseline;
+  }
+  .packText {
+    font-size: 40px;
+  }
+  .shineImg {
+    width: 40px;
+  }
+  .elipseImg {
+    width: 120px;
+  }
+  .description {
+    width: 100%;
+  }
+  .description p {
+    width: 80%;
+    word-spacing: 3px;
+    text-align: justify;
+    margin-left: 0;
+  }
+  .descriptionWrapper {
+    width: 100%;
+  }
+  .descriptionWrapper p {
+    width: 80%;
+    word-spacing: 3px;
+    text-align: justify;
+    margin-left: 0;
+  }
+  .testimonialTitle {
+    width: 80%;
+  }
+}
+
+
+/* Extra Small Devices (Portrait Phones & Smaller Devices) */
+
+@media (max-width: 480px) {
+  .col {
+    width: 100%;
+  }
+  .rightTitle {
+    font-size: 30px;
+  }
+  .featureText {
+    font-size: 35px;
+  }
+  .featurePackWrapper {
+    align-items: center;
+  }
+  .packText {
+    font-size: 30px;
+  }
+  .shineWrapper {
+    position: absolute;
+    right: -25px;
+  }
+  .shineImg {
+    width: 30px;
+  }
+  .elipseImg {
+    width: 80px;
+  }
+  .description {
+    width: 100%;
+  }
+  .description p {
+    width: 80%;
+    word-spacing: 3px;
+    text-align: justify;
+    margin-left: 0;
+  }
+  .descriptionWrapper {
+    width: 100%;
+  }
+  .descriptionWrapper p {
+    width: 80%;
+    word-spacing: 3px;
+    text-align: justify;
+    margin-left: 0;
+  }
+  .testimonialTitle {
+    width: 80%;
+  }
+}
+
+
+/* Extra Small Devices (Portrait Phones & Smaller Devices) */
+
+@media (max-width: 320px) {
+  
+}
