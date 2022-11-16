@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <div className={cx(styles.container, toggle ? rStyles.toggleContainer: rStyles.container)}>
       <div className={rStyles.logoWrapper} style={{ position: "relative" }}>
-        <img src={LogoBlack} width={150} alt="logo" />
+        <img src={LogoPrimary} width={150} alt="logo" />
         <span style={{ position: "absolute", top: 10, right: 10 }}>
           <img width={40} src={Shine} alt="" />
         </span>

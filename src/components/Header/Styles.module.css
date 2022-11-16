@@ -17,7 +17,7 @@
   line-height: 1;
 }
 .shineWrapper {
-  position: "absolute";
+  position: absolute;
   top: -80px;
 }
 .shine {
@@ -45,6 +45,11 @@
   font-size: 35px;
   font-weight: 300;
   letter-spacing: 2px;
+}
+.shineRight {
+  position: absolute;
+  top: -15px;
+  right: -25px;
 }
 .cartBtn {
   font-size: 12px;

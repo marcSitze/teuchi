@@ -2,11 +2,6 @@ import React from "react";
 import cx from "classnames";
 import styles from "./Styles.module.css";
 import rStyles from './Responsive.module.css'
-import Burger from "../../assets/burger.png";
-import BurgerF from "../../assets/burgerF.png";
-import Hotdog from "../../assets/hotdogF.png";
-import Shawarma from "../../assets/shawarmaF.png";
-import Pizza from "../../assets/pizzaF.png";
 import Elipse from "../../assets/elipse.png";
 import Shine from "../../assets/shine.png";
 import ArrowLeft from '../../assets/arrowLeft.png'
@@ -16,7 +11,6 @@ import TeuchiBox from '../../assets/teuchi/teuchiBox.png'
 import Egg from '../../assets/teuchi/egg.png'
 import Orange from '../../assets/teuchi/orange.png'
 import EggBreak from '../../assets/teuchi/eggBreak.png'
-import Food from '../../assets/teuchi/food.png'
 import Pepper from '../../assets/teuchi/pepper.png'
 
 
@@ -26,25 +20,25 @@ const Header = () => {
   const foods = [
     {
       id: 0,
-      name: "Hotdog",
+      name: "Eggs",
       price: "$8.99 - $18.99",
       img: Egg,
     },
     {
       id: 1,
-      name: "Shawarma",
+      name: "Lemon",
       price: "$8.99 - $18.99",
       img: Orange,
     },
     {
       id: 0,
-      name: "Burger",
+      name: "Pepper",
       price: "$8.99 - $18.99",
       img: Pepper,
     },
     {
       id: 0,
-      name: "Pizza",
+      name: "Raw eggs",
       price: "$8.99 - $18.99",
       img: EggBreak,
     },
@@ -73,7 +67,7 @@ const Header = () => {
           <p className={styles.rightText}>
             <div style={{position: 'relative'}}>
               <span className={cx(styles.rightItemText, rStyles.rightItemText)}>Teuchi</span>
-              <span style={{ position: "absolute", top: -15, right: -25 }}>
+              <span className={cx(styles.shineRight, rStyles.shineRight)}>
                 <img width={40} src={Shine} alt="" />
               </span>
             </div>
@@ -95,7 +89,7 @@ const Header = () => {
           <img className={styles.middleImg} src={TeuchiBox} alt="burger" />
         </div>
         <h1 className={cx(styles.bgText, rStyles.bgText)}>Teuchi</h1>
-        <h2 className={cx(styles.bottomTitle, rStyles.bottomTitle)}>Our Premium Foods</h2>
+        <h2 className={cx(styles.bottomTitle, rStyles.bottomTitle)}>Our Premium Ingredients</h2>
         <div className={cx(styles.foods, rStyles.foods)}>
           {foods.map((item, i) => (
             <FoodItem key={i} food={item} />

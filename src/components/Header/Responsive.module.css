@@ -132,7 +132,11 @@
     width: 40px;
   }
   .elipse {
-    width: 75px
+    /* width: 75px  */
+    width: 62px;
+  }
+  .shineRight {
+    right: -15px;
   }
   .arrow {
     padding: 10px 20px;

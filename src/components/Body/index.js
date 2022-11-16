@@ -2,39 +2,39 @@ import React from "react";
 import cx from "classnames";
 import styles from "./Styles.module.css";
 import rStyles from './Responsive.module.css'
-import Macdo from "../../assets/macdo.png";
+import Plate from "../../assets/plate.png";
 import TeuchiBox from '../../assets/teuchi/teuchiBox.png'
 import MixFood from '../../assets/teuchi/mix.png'
 import Elipse from "../../assets/elipse.png";
 import Shine from "../../assets/shine.png";
-import SurprisedMan from "../../assets/surprisedman.png";
+import SurprisedChef from "../../assets/surprisechef.png";
 
 const Body = () => {
   return (
     <div className={styles.container}>
       <div className={styles.row}>
         <div className={cx(styles.col, rStyles.col)}>
-          <img width="100%" src={Macdo} alt="macdo" />
+          <img width="100%" src={Plate} alt="plate" />
         </div>
         <div className={cx(styles.col, rStyles.col)}>
-          <span className={cx(styles.rightTitle, rStyles.rightTitle)}>Entreprise De</span>
+          <span className={cx(styles.rightTitle, rStyles.rightTitle)}>Feel the</span>
           <div className={cx(styles.featurePackWrapper, rStyles.featurePackWrapper)}>
             <div style={{ position: "relative", marginRight: 20 }}>
               <div className={cx(styles.shineWrapper, rStyles.shineWrapper)}>
                 <img className={cx(styles.shineImg, rStyles.shineImg)} src={Shine} alt="shine" />
               </div>
-              <h3 className={cx(styles.featureText, rStyles.featureText)}>Pattes</h3>
+              <h3 className={cx(styles.featureText, rStyles.featureText)}>Taste</h3>
               <div>
                 <img className={cx(styles.elipseImg, rStyles.elipseImg)} src={Elipse} alt="elipse" />
               </div>
             </div>
             <div>
-              <h3 className={cx(styles.packText, rStyles.packText)}>Alimentaire</h3>
+              <h3 className={cx(styles.packText, rStyles.packText)}>Differntly</h3>
             </div>
           </div>
           <div className={cx(styles.description, rStyles.description)}>
             <p>
-            Teuchi est le propriétaire de l'entreprise TEUCHI spécialisée dans la fabrication des pattes alimentaires.
+            Teuchi is the owner of the TEUCHI company specializing in the manufacture of food paws
             </p>
           </div>
           <button className={styles.galleryBtn}>VIEW FOOD GALLERY</button>
@@ -42,10 +42,10 @@ const Body = () => {
       </div>
       <div className={cx(styles.row, styles.rowReverse)}>
         <div className={cx(styles.col, rStyles.col)}>
-          <img width="100%" src={MixFood} alt="macdo" />
+          <img width="100%" src={MixFood} alt="plate" />
         </div>
         <div className={cx(styles.col, rStyles.col)}>
-          <span className={cx(styles.rightTitle, rStyles.rightTitle)}>Sa Vision</span>
+          <span className={cx(styles.rightTitle, rStyles.rightTitle)}>Our Goal</span>
           <div className={cx(styles.featurePackWrapper, rStyles.featurePackWrapper)}>
             <div style={{ position: "relative", marginRight: 20 }}>
               <div className={cx(styles.shineWrapper, rStyles.shineWrapper)}>
@@ -62,8 +62,7 @@ const Body = () => {
           </div>
           <div className={cx(styles.description, rStyles.descriptionWrapper)}>
             <p>
-            Proposer des pattes avec un goût varié de ce qui se vend d'habitude. On a notamment les saveurs pimentée et citronnée mise en avant.
-            </p>
+            Offer paws with a varied taste of what is usually sold. We have in particular the spicy and lemony flavors highlighted.            </p>
           </div>
           <button className={styles.galleryBtn}>READ MORE</button>
         </div>
@@ -73,14 +72,13 @@ const Body = () => {
           <div className={cx(styles.col, rStyles.col)}>
             <div className={styles.testimonialTextWrapper}>
               <p className={cx(styles.testimonialTitle, rStyles.testimonialTitle)}>
-                "La marque TEUCHI vise des personnes responsables à la découverte de chose nouvelle, et qui aiment bien faire les choses d'elle même."
-              </p>
+              " We are proud to make the difference in the market, with something that people actually enjoy eating, for breakfast and lunch"              </p>
               <p className={styles.testimonialTitleName}>KADIN SEPTIMUS</p>
               <p className={styles.testimonialTitlePost}>Head of Product</p>
             </div>
           </div>
           <div className={cx(styles.col, rStyles.col)}>
-            <img width="100%" src={SurprisedMan} alt="surprised man" />
+            <img width="100%" src={SurprisedChef} alt="surprised man" />
           </div>
         </div>
       </div>
