@@ -3,6 +3,7 @@ import cx from 'classnames'
 import styles from "./Styles.module.css";
 import rStyles from './Responsive.module.css'
 import FoodLogo from "../../assets/foodLogo.png";
+import logoText from "../../assets/logoText.png";
 import LogoBlack from "../../assets/teuchi/logoBlack.png";
 import Facebook from "../../assets/facebook.png";
 import Instagram from "../../assets/instagram.png";
@@ -31,7 +32,7 @@ const Footer = () => {
           <span className={styles.menuItem}>Contact</span>
         </div>
         <div>
-          <img className={cx(styles.logo, rStyles.logo)} src={LogoBlack} alt="logo"/>
+          <img className={cx(styles.logo, rStyles.logo)} src={logoText} alt="logo"/>
           <div>
             <img className={styles.icon} src={Facebook} alt="facebook icon"/>
             <img className={styles.icon} src={Twitter} alt="facebook icon"/>
@@ -40,7 +41,7 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <p className={styles.footerText}>&copy; Copyright by fodo seller All right reserved.</p>
+          <p className={styles.footerText}>&copy; Copyright by teuchi seller All right reserved.</p>
         </div>
       </div>
     </div>

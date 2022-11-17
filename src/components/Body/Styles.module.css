@@ -72,7 +72,7 @@
   width: 50%;
   text-align: left;
   margin-left: 50px;
-  word-spacing: 4px;
+  word-spacing: 1px;
   letter-spacing: 1px;
   font-size: 14px;
   color: #2c2929b2;
@@ -93,6 +93,7 @@
 .testimonial {
   background-color: #fff0e7;
   padding: 100px 0;
+  overflow: hidden;
 }
 .testimonialTextWrapper {
   display: flex;

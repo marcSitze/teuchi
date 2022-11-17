@@ -73,8 +73,8 @@ const Body = () => {
             <div className={styles.testimonialTextWrapper}>
               <p className={cx(styles.testimonialTitle, rStyles.testimonialTitle)}>
               " We are proud to make the difference in the market, with something that people actually enjoy eating, for breakfast and lunch"              </p>
-              <p className={styles.testimonialTitleName}>KADIN SEPTIMUS</p>
-              <p className={styles.testimonialTitlePost}>Head of Product</p>
+              <p className={cx(styles.testimonialTitleName, rStyles.testimonialTitleName)}>KADIN SEPTIMUS</p>
+              <p className={cx(styles.testimonialTitlePost, rStyles.testimonialTitlePost)}>Head of Product</p>
             </div>
           </div>
           <div className={cx(styles.col, rStyles.col)}>

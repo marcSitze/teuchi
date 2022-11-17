@@ -54,6 +54,10 @@
   .testimonialTitle {
     width: 80%;
   }
+  .testimonialTitlePost, .testimonialTitleName {
+    width: 100%;
+    margin-left: 20%;
+  }
 }
 
 
@@ -98,6 +102,10 @@
   }
   .testimonialTitle {
     width: 80%;
+  }
+  .testimonialTitlePost, .testimonialTitleName {
+    width: 100%;
+    margin-left: 20%;
   }
 }
 
@@ -151,6 +159,10 @@
   .testimonialTitle {
     width: 80%;
     font-size: 22px;
+  }
+  .testimonialTitlePost, .testimonialTitleName {
+    width: 100%;
+    margin-left: 20%;
   }
 }
 
