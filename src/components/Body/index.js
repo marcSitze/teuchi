@@ -13,10 +13,10 @@ const Body = () => {
   return (
     <div className={styles.container}>
       <div className={styles.row}>
-        <div className={cx(styles.col, rStyles.col)}>
+        <div className={`${cx(styles.col, rStyles.col)} animate__animated animate__bounceInLeft`}>
           <img width="100%" src={Plate} alt="plate" />
         </div>
-        <div className={cx(styles.col, rStyles.col)}>
+        <div className={`${cx(styles.col, rStyles.col)} animate__animated animate__bounceInRight`}>
           <span className={cx(styles.rightTitle, rStyles.rightTitle)}>Feel the</span>
           <div className={cx(styles.featurePackWrapper, rStyles.featurePackWrapper)}>
             <div style={{ position: "relative", marginRight: 20 }}>

@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import 'animate.css'
 
 import Navbar from './components/Layouts/Navbar';
 import Header from './components/Header';

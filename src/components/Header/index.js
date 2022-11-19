@@ -47,7 +47,7 @@ const Header = () => {
   return (
     <div className={styles.container}>
       <div className={cx(styles.textContainer, rStyles.textContainer)}>
-        <p className={cx(styles.leftText, rStyles.leftText)}>
+        <p className={`${cx(styles.leftText, rStyles.leftText)} animate__animated animate__bounceInLeft`}>
           <div style={{ position: "relative" }}>
             <span>GREAT</span>
             <span className={cx(styles.shineWrapper, rStyles.shineWrapper)}>
@@ -63,8 +63,8 @@ const Header = () => {
           </div>
           SHOP
         </p>
-        <div className={cx(styles.rightTextContainer, rStyles.rightTextContainer)}>
-          <p className={styles.rightText}>
+        <div className={`${cx(styles.rightTextContainer, rStyles.rightTextContainer)}  animate__animated animate__bounceInRight`}>
+          <p className={`${styles.rightText}`}>
             <div style={{position: 'relative'}}>
               <span className={cx(styles.rightItemText, rStyles.rightItemText)}>Teuchi</span>
               <span className={cx(styles.shineRight, rStyles.shineRight)}>
@@ -85,7 +85,7 @@ const Header = () => {
           <div className={cx(styles.arrow, rStyles.arrow)}><img className={cx(styles.arrowImg, rStyles.arrowImg)} src={ArrowRight} alt="right arrow" /></div>
         </div>
       <div className={styles.headerBottom}>
-        <div className={styles.middleImgContainer}>
+        <div className={`${styles.middleImgContainer} animate__animated animate__zoomInUp`}>
           <img className={styles.middleImg} src={TeuchiBox} alt="burger" />
         </div>
         <h1 className={cx(styles.bgText, rStyles.bgText)}>Teuchi</h1>
